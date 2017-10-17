@@ -40,4 +40,4 @@ COPY sh/40_buildclean.sh $tmpdir/
 
 
 #
-CMD " /bin/bash echo welcom to LEDE for K3"
+CMD " export FORCE_UNSAFE_CONFIGURE=1"

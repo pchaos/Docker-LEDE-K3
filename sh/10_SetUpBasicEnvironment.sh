@@ -29,5 +29,7 @@ fi
 apt-get install -y build-essential
 apt-get install -y asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev
 apt-get install -y perl
+# support. mkisofs.
+apt-get install -y genisoimage
 
 echo done ................................. $0
