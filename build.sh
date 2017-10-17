@@ -7,7 +7,7 @@
 #下载相关资源
 [ ! -d lede ] && git clone https://github.com/coolsnowwolf/lede.git &
 
-[ -d lede ] && echo "git pull hikyuu .........." && cd hikyuu && git pull && cd ..
+[ -d lede ] && echo "git pull coolsnowwolf lede .........." && cd lede && git pull && cd ..
 
 chmod a+x sh/*.sh
 chmod a+x *.sh
