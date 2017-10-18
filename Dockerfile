@@ -40,4 +40,4 @@ COPY sh/40_buildclean.sh $tmpdir/
 
 
 #
-CMD " export FORCE_UNSAFE_CONFIGURE=1"
+CMD "cd lede"

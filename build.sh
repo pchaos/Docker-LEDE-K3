@@ -19,6 +19,7 @@ docker build -t=$buildName .
 echo "build .............................. done"
 echo --------------------------------------------------
 echo run in shell:
-echo ./start.sh
+echo "run docker: ./start.sh"
+echo "in docker run: make menuconfig"
 echo --------------------------------------------------
 
