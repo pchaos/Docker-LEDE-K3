@@ -14,6 +14,8 @@ docker默认磁盘空间为10G，编译过程中可能会耗尽空间，编译�
   ]
 }
 
+docker是个吃硬盘大户，记得经常运行cleanDocker.sh,清理临时空间。否则很快就会空间耗尽。
+
 
 archivesmu目录下的.config_K3 .config_x86分别为斐逊路由器K3，x86平台配置文件样例，供参考
 
